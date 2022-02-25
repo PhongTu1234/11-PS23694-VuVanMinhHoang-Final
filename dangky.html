@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>11-PS23694-Hoàng-FPT Polytechnic</title>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        *{
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div style="width: 30%;">
+            <div class="form-group">
+                <label>Họ và Tên: </label><br>
+                <input type="text" class="form-control">
+            </div>
+            <br>
+            <fieldset>
+                <legend><label>Giới tính: </label></legend>
+                <input type="radio" name="GioiTinh" checked> Nam
+                <input type="radio" name="GioiTinh"> Nữ
+            </fieldset>
+            <br>
+            <div>
+                <label>Ngày sinh: </label><br>
+                <input type="date">
+            </div>
+            <br>
+            <div class="form-group">
+                <label>Điểm: </label>
+                <input class="form-control" type="number" min="0" max="10" step="0.25">
+            </div>
+            <br>
+            <div>
+                <label>Nghề nghiệp: </label><br>
+                <select>
+                    <option>Làm Nông</option>
+                    <option>Nhân Viên</option>
+                    <option>Bác sĩ</option>
+                    <option>Giáo Viên</option>
+                    <option>Học sinh</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <fieldset>
+                    <legend><label>Sở thích</label></legend>
+                    <input type="checkbox">Thể Thao
+                    <input type="checkbox">Du lịch
+                    <input type="checkbox">Âm nhạc
+                    <input type="checkbox">Ẩm thực
+                </fieldset>
+            </div>
+            <br>
+            <div class="form-group">
+                <label>Ghi chú: </label><br>
+                <textarea class="form-control" cols="30" rows="10"></textarea>
+            </div>
+        </div>
+        <hr>
+        <div>
+            <button class="form-button">Đăng ký</button>
+            <button class="form-button">Nhập lại</button>
+        </div>
+    </form>
+</body>
+</html>
